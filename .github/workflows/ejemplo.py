@@ -1,4 +1,5 @@
 print("Hola Mundo")
 
-for i in range(10):
-  print(i)
+for i in range(30):
+  if i % 2 == 0:
+    print(i)
