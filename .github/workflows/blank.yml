@@ -29,3 +29,8 @@ jobs:
 
       - name: Run a Python script
         run: python .github/workflows/ejemplo.py
+
+      - uses: actions/setub-python@v5
+        with:
+          python-version: "3.10"
+      - run: python .github/workflows/ejemplo2.py
